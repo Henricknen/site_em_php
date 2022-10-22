@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="css/stylo.css">
 </head>
 <body>
-    <p>Site</p>
-    <p>em PHP</p>
+
+    <section id="topo">     <!-- separando por seções -->
+        <?php include "topo.php"; ?>        <!-- fazendo a inclusão do arquivo 'topo.php' -->
+    </section>
+
+    <section id="conteudo">
+        <?php include "conteudo.php"; ?>        <!-- fazendo a inclusão do arquivo 'conteudo.php' -->
+    </section>
+
+    <section id="rodape">
+        <?php include "rodape.php"; ?>        <!-- fazendo a inclusão do arquivo 'rodape.php' -->
+    </section>
     
 </body>
 </html>
