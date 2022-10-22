@@ -9,16 +9,18 @@
 </head>
 <body>
 
-    <section id="topo">     <!-- separando por seções -->
-        <?php include "topo.php"; ?>        <!-- fazendo a inclusão do arquivo 'topo.php' -->
-    </section>
+    <section id="principal">
+        <section id="topo">     <!-- separando por seções -->
+            <?php include "topo.php"; ?>        <!-- fazendo a inclusão do arquivo 'topo.php' -->
+        </section>
 
-    <section id="conteudo">
-        <?php include "conteudo.php"; ?>        <!-- fazendo a inclusão do arquivo 'conteudo.php' -->
-    </section>
+        <section id="conteudo">
+            <?php include "conteudo.php"; ?>        <!-- fazendo a inclusão do arquivo 'conteudo.php' -->
+        </section>
 
-    <section id="rodape">
-        <?php include "rodape.php"; ?>        <!-- fazendo a inclusão do arquivo 'rodape.php' -->
+        <section id="rodape">
+            <?php include "rodape.php"; ?>        <!-- fazendo a inclusão do arquivo 'rodape.php' -->
+        </section>
     </section>
     
 </body>

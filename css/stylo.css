@@ -1,0 +1,8 @@
+* {margin: 0; padding: 0}
+
+#principal {
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    background: #0AF;
+}
