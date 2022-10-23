@@ -23,13 +23,14 @@
 #topo figure img {
     width: 150px;
     height: auto;
+    background-color: #000;
     border-radius: 100px;
+    float: left;
 }
 
-#topo header {
+#topo header {  
     width: 100%;
     position: absolute;
-    border: 1px solid yellow;
     margin-top: 120px;
 }
 
@@ -37,4 +38,56 @@
     text-align: center;
     font-size: 36px;
     color: #FFF;
+}
+
+/* primeira lista */
+#mais {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mais li:hover ul {
+    display: block;
+}
+
+/* imagem de promoção */
+#menu {
+    width: 50px;
+    height: auto;
+    
+
+}
+
+/* segunda lista */
+#mais li ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #999;
+    width: 160px;
+    top: 30px;
+    left: 40px;
+}
+
+#mais li ul li {
+    color: #777;
+    padding: 10px 30px;
+    margin: 2px 1px;
+    background-color: #FFF;
+}
+
+#mais li ul li:hover {
+    color: #FFF;
+    background-color: #555;
+}
+
+#topo nav {
+    border: 0px solid red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 52%;
+    margin-top: 28%;
 }
