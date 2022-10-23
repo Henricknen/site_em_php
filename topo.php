@@ -1,3 +1,3 @@
-<?php
-    echo "Arquivo do topo";
-?>
+<figure>
+    <img src="img/pizza.jfif">
+</figure>

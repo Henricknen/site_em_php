@@ -2,7 +2,25 @@
 
 #principal {
     max-width: 1200px;
-    height: 800px;
+    height: 700px;
     margin: 0 auto;
-    background: #0AF;
+    background-color: #0AF;
+}
+
+/* seção topo */
+#topo {
+    width: 100%;
+    height: 300px;
+    background-color: #777;
+    float: left;
+}
+
+#topo figure {
+    margin: 250px 42% auto;
+}
+
+#topo figure img {
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
 }
