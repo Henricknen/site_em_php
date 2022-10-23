@@ -1,12 +1,5 @@
 * {margin: 0; padding: 0; font-family: Arial, calibri; font-size: 14px}
 
-#principal {
-    max-width: 1200px;
-    height: 700px;
-    margin: 0 auto;
-    background-color: #0AF;
-}
-
 /* seção topo */
 #topo {
     width: 100%;
@@ -56,8 +49,12 @@
 #menu {
     width: 50px;
     height: auto;
-    
+    transition: 0.2s; 
+}
 
+#mais:hover #menu {
+    width: 55px;
+    height: auto;
 }
 
 /* segunda lista */
@@ -83,6 +80,11 @@
     background-color: #555;
 }
 
+#pizza_menu li a {
+    text-decoration: none;
+    color: #0AF;
+}
+
 #topo nav {
     border: 0px solid red;
     position: relative;
@@ -90,4 +92,12 @@
     height: 100px;
     margin-left: 52%;
     margin-top: 28%;
+}
+
+/* seção conteudo */
+#principal {
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #0AF;
 }

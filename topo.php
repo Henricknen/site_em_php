@@ -8,9 +8,9 @@
 <nav>
     <ul id="mais">
         <li><img src="img/catalogoo.png" id="menu">
-            <ul>
-                <li>Fazer pedido</li>
-                <li>Fazer pedido</li>
+            <ul id="pizza_menu">
+                <li><a href="comprar.php">Fazer pedido</a></li>
+                <li><a href="pagamento.php">Pagamento</a></li>
             </ul>
         </li>
     </ul>
