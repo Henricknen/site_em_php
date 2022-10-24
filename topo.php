@@ -9,7 +9,7 @@
     <ul id="mais">
         <li><img src="img/catalogoo.png" id="menu">
             <ul id="pizza_menu">
-                <li><a href="comprar.php">Fazer pedido</a></li>
+                <li><a href="comprar.php">Visualizar pizzas</a></li>
                 <li><a href="pagamento.php">Pagamento</a></li>
             </ul>
         </li>

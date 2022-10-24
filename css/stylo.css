@@ -70,7 +70,7 @@
 
 #mais li ul li {
     color: #777;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin: 2px 1px;
     background-color: #FFF;
 }
@@ -83,6 +83,7 @@
 #pizza_menu li a {
     text-decoration: none;
     color: #0AF;
+    padding: 10px 12px;
 }
 
 #topo nav {
