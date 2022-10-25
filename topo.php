@@ -15,3 +15,8 @@
         </li>
     </ul>
 </nav>
+
+<section id="menu_perfil">
+    <a href="sobre.php">Sobre</a>
+    <a href="mais.php">Mais</a>
+</section>
