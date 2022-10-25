@@ -111,8 +111,8 @@ body {
 
 #menu_perfil {
     width: 100%;
-    height: 80px;
-    background-color: #FFF;
+    min-height: 50px;
+    background-color: #222;
     position: absolute;
     bottom: 0;
 }
@@ -125,10 +125,15 @@ body {
     background-color: #222;
 }
 
+#menu_perfil a:hover {
+    background-color: #555;
+    color: #0AF;
+}
+
 /* seção conteudo */
 #principal {
     max-width: 1200px;
     height: 700px;
     margin: 0 auto;
-    background-color: #0AF;
+    background-color:#0AF;
 }
