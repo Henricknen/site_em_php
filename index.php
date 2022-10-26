@@ -10,17 +10,16 @@
 <body>      <!-- seção principal -->
 
     <section id="principal">
-        <section id="topo">     <!-- header -->
-            <?php require_once('topo.php'); ?>        <!-- fazendo a inclusão do arquivo 'topo.php' -->
-        </section>
-
-        <section id="conteudo">
-            <?php require_once('conteudo.php'); ?>        <!-- fazendo a inclusão do arquivo 'conteudo.php' -->
-        </section>
-
-        <section id="rodape">       <!-- footer -->
-            <?php require_once('rodape.php'); ?>        <!-- fazendo a inclusão do arquivo 'rodape.php' -->
-        </section>
+        <div id="form">
+            <form action="login.php" method="post">
+                <label>Login: </label>
+                    <input type="text" name="login" placeholder="Ex: .henrick@live.com"><br>
+                <label>Senha:</label>
+                    <input type="password" name="senha" placeholder="Ex: Ola_Mundo123"><br>
+                    <input type="submit" value="Logar">
+            </form>
+        </div>
+        
     </section>
     
 </body>

@@ -145,6 +145,15 @@ body {
     float: left;
 }
 
+/* pagina de cadastr */
+#form {
+    border: 1px solid blue;
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin: 200px 28% auto;
+}
+
 /* roda pé */
 #rodape {
     width: 100%;
