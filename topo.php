@@ -17,6 +17,6 @@
 </nav>
 
 <section id="menu_perfil">
-    <a href="sobre.php">Sobre</a>
-    <a href="mais.php">Mais</a>
+    <a href="index.php?page=1">Sobre</a>
+    <a href="index.php?page=2">Mais</a>
 </section>
