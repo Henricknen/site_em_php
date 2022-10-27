@@ -149,10 +149,24 @@ body {
 #form {
     border: 0px solid blue;
     width: 500px;
-    min-height: 200px;
+    min-height: 230px;
     margin: 15% auto;
     overflow: hidden;
     background-color: #0AF;
+    position: relative;
+}
+
+#form a {
+    float: left;
+    position: absolute;
+    left: 5%;
+    bottom: 10px;
+    border: 0px solid red;
+    text-decoration: none;
+}
+
+#form :hover {
+    text-decoration: underline;
 }
 
 .entradas {

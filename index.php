@@ -17,8 +17,9 @@
                     <input type="password" name="senha" placeholder="Ex: Ola_Mundo123" class="entradas"><br>
                 <label>
                     <input type="submit" value="Logar">
-                </label>   
-            </form>        
+                </label>
+            </form>
+            <a href="cadastro.php">Cadastrar Usuario</a>
     </section>
     
 </body>
