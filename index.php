@@ -9,17 +9,16 @@
 </head>
 <body>      <!-- seção principal -->
 
-    <section id="principal">
-        <div id="form">
+    <section id="form">
             <form action="login.php" method="post">
-                <label>Login: </label>
-                    <input type="text" name="login" placeholder="Ex: .henrick@live.com"><br>
+                <label>Login:</label>
+                    <input type="text" name="login" placeholder="Ex: .henrick@live.com" class="entradas"><br>
                 <label>Senha:</label>
-                    <input type="password" name="senha" placeholder="Ex: Ola_Mundo123"><br>
+                    <input type="password" name="senha" placeholder="Ex: Ola_Mundo123" class="entradas"><br>
+                <label>
                     <input type="submit" value="Logar">
-            </form>
-        </div>
-        
+                </label>   
+            </form>        
     </section>
     
 </body>
