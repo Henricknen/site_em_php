@@ -17,6 +17,8 @@
                     <input type="text" name="email" placeholder="Digite o e-mail" class="entradas"><br>
                 <label>Senha:</label>
                     <input type="password" name="senha" placeholder="Digite uma senha" class="entradas"><br>
+                <label>Dica:</label>
+                    <input type="password" name="dica" placeholder="Digite uma dica" class="entradas"><br>
                 <label>Imagem de Capa:</label>
                     <input type="file" name="capa" placeholder="" class="entradas"><br>
                 <label>Imagem do perfil</label>
