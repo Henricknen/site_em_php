@@ -16,9 +16,14 @@
     // loacal das imagens dos clientes cadastrados
     $pasta = $email;
     
-    // criar pasta em php
-    mkdir("users/" .$pasta, 0777);     // função 'mkdir' permite a criação de pastas
-    
+    // criar pasta em php com base em uma verificação
+    if(file_exists("users/" .$pasta)) {
+        // header("location:cadastro.php");        // se a pasta ja existir o usuario retornará para página de cadastro  
+        echo "Está pasta de cadastro já existe<br>";
+        echo "<a href='cadastro.php'>Voltar a tela de cadastro<br></a>";
+    } else {
+        mkdir("users/" .$pasta, 0777);     // função 'mkdir' permite a criação das pastas
+    }
 
     // imprimindo os valores armazenados na variaveis
     // echo "Nome".$nome."<br>";
