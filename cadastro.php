@@ -12,17 +12,17 @@
     <section id="form">
             <form action="cadastrar.php" method="post" enctype="multipart/form-data">
                 <label>Nome:</label>
-                    <input type="text" name="nome" placeholder="Digite o nome" class="entradas"><br>
+                    <input type="text" name="nome" placeholder="Digite o nome" class="entradas" required><br>
                 <label>E-mail:</label>
-                    <input type="text" name="email" placeholder="Digite o e-mail" class="entradas"><br>
+                    <input type="text" name="email" placeholder="Digite o e-mail" class="entradas" required><br>
                 <label>Senha:</label>
-                    <input type="password" name="senha" placeholder="Digite uma senha" class="entradas"><br>
+                    <input type="password" name="senha" placeholder="Digite uma senha" class="entradas" required><br>
                 <label>Dica:</label>
-                    <input type="password" name="dica" placeholder="Digite uma dica" class="entradas"><br>
+                    <input type="password" name="dica" placeholder="Digite uma dica" class="entradas" required><br>
                 <label>Imagem de Capa:</label>
-                    <input type="file" name="capa" placeholder="" class="entradas"><br>
+                    <input type="file" name="capa" placeholder="" class="entradas" required><br>
                 <label>Imagem do perfil</label>
-                    <input type="file" name="perfil" placeholder="" class="entradas"><br>
+                    <input type="file" name="perfil" placeholder="" class="entradas" required><br>
                 <label>
                     <input type="submit" value="Cadastrar" class="bt_form">
                 </label>
