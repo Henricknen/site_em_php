@@ -14,7 +14,10 @@
     $perfil_tipo = $_FILES['perfil'] ['type'];
 
     // loacal das imagens dos clientes cadastrados
-    $pasta = "users";
+    $pasta = $email;
+    
+    // criar pasta em php
+    mkdir("users/" .$pasta, 0777);     // função 'mkdir' permite a criação de pastas
     
 
     // imprimindo os valores armazenados na variaveis
@@ -34,9 +37,9 @@
 // mysqli_query($link,$sql);       // para cadastrar este dados no banco de dados 'bd_site' dentro da tabela 'tb_site' usa a função 'mysqli_query'
 
 // upload das imagens     // entrando na $pasta 'user' e $capa é o 'arquivo'
-move_uploaded_file($_FILES['capa']['tmp_name'], $pasta."/".$capa);       // função de pegar as imagens e colocar na variavel "$pasta"
+move_uploaded_file($_FILES['capa']['tmp_name'], "users/" .$pasta."/" .$capa);       // função de pegar as imagens e colocar na variavel "$pasta"
 
-move_uploaded_file($_FILES['perfil']['tmp_name'], $pasta."/".$perfil);
+move_uploaded_file($_FILES['perfil']['tmp_name'], "users/" .$pasta."/" .$perfil);       // inserindo imagem dentro da 'pasta de email' que está dentro da pasta 'users'
 
 echo "<a href = 'cadastro.php'>Cadastrar outro Cliente</a>";
 
