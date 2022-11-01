@@ -12,9 +12,9 @@
     <section id="form">
             <form action="login.php" method="post">
                 <label>Login:</label>
-                    <input type="text" name="login" placeholder="Ex: .henrick@live.com" class="entradas"><br>
+                    <input type="text" name="login" placeholder="Ex: .henrick@live.com" class="entradas" required><br>
                 <label>Senha:</label>
-                    <input type="password" name="senha" placeholder="Ex: Ola_Mundo123" class="entradas"><br>
+                    <input type="password" name="senha" placeholder="Ex: Ola_Mundo123" class="entradas" required><br>
                 <label>
                     <input type="submit" value="Logar" class="bt_form">
                 </label>
