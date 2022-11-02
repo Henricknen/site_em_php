@@ -1,7 +1,7 @@
 <?php
 
     // armazenando dados do formulario nestas variaveis
-    include "conexao.php";
+    require_once 'conexao.php';
     $nome = $_POST ['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
