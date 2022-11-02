@@ -5,12 +5,15 @@ require_once 'conexao.php';
 SESSION_START();        // recuperando sessão
 
 //'$l' de login
-$l = $_SESSION["login_user"];       // a variavel '$l' recebe o que sta dentro da sessao 'user'
+$l = isset($_SESSION['login_user'])?$_SESSION['login_user']:"";     // verificando se 'login_user' esta gravado no banco de dados
 
 // '$s' de senha
-$s = $_SESSION["senha_user"];
+$s = isset($_SESSION['senha_user'])?$_SESSION['senha_user']:"";
 
-echo "login: $l<br>";
-echo "senha: $s<br>";
+if($l != "" && $s != "") {
+    
+} else {
+    header('location:index.php');    
+}
 
 ?>
