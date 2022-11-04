@@ -21,7 +21,7 @@ if(isset($_SESSION['login_user']) && isset($_SESSION['senha_user'])) {       // 
     }
 
     //inicio da verifição: se os dados batem com o que tem na tabela do banco de dados
-    if($login = $email && $senha == $pass) {
+    if($login == $email && $senha == $pass) {
         header('location: user.php');
     } else {
         header('location: index.php');
@@ -29,7 +29,7 @@ if(isset($_SESSION['login_user']) && isset($_SESSION['senha_user'])) {       // 
     // fim da verificação
 
 } else {
-    header('location:index.php');       // se tentarem acesso direto será redirecionado para 'index.php' 
+    header('location: index.php');       // se tentarem acesso direto será redirecionado para 'index.php' 
 }
 
 ?>

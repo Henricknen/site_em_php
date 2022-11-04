@@ -1,5 +1,6 @@
 <header>
-    <h1>Pizzaria</h1>
+    <h1><?php echo $nome_log; ?></h1>
+    <h1><?php echo $email_log; ?></h1>
 </header>
 <figure>
     <img src="img/pizza.jfif">
