@@ -17,6 +17,8 @@ if($l != "" && $s != "") {
         $email_log = $d['email'];       // o que for encontrado na varredura será guardado dentro do array '$d'
         $senha_log = $d['senha'];
         $dica_log = $d['dica'];
+        $capa_log = $d['capa'];
+        $perfil_log = $d['perfil'];
     }
     
 } else {
