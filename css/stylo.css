@@ -145,6 +145,10 @@ body {
     float: left;
 }
 
+h1 {
+    margin-left: 20px;
+}
+
 /* pagina de cadastr */
 #form {
     border: 0px solid blue;
