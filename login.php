@@ -1,7 +1,7 @@
 <?php
 
 // arquivo de login
-include 'conexao.php';     // fazendo a inclusão do arquivo de 'conexao.php'
+require_once 'conexao.php';     // fazendo a inclusão do arquivo de 'conexao.php'
 
 // iniciar 'sesssion'
 SESSION_START();

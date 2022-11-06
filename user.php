@@ -17,15 +17,15 @@
 
     <section id="principal">
         <section id="topo" style="background-image:url(<?php echo "users/$email_log/$capa_log"; ?>); background-size: cover;">     <!-- header -->    <!-- a propriedade 'background-image' permite iserir uma imagem como plano de fundo -->
-            <?php require_once('topo.php'); ?>        <!-- fazendo a inclusão do arquivo 'topo.php' -->
+            <?php require_once 'topo.php'; ?>        <!-- fazendo a inclusão do arquivo 'topo.php' -->
         </section>
 
         <section id="conteudo">
-            <?php require_once('conteudo.php'); ?>        <!-- fazendo a inclusão do arquivo 'conteudo.php' -->
+            <?php require_once 'conteudo.php'; ?>        <!-- fazendo a inclusão do arquivo 'conteudo.php' -->
         </section>
 
         <section id="rodape">       <!-- footer -->
-            <?php require_once('rodape.php'); ?>        <!-- fazendo a inclusão do arquivo 'rodape.php' -->
+            <?php require_once 'rodape.php'; ?>        <!-- fazendo a inclusão do arquivo 'rodape.php' -->
         </section>
     </section>
     

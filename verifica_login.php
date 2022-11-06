@@ -19,7 +19,7 @@ if($l != "" && $s != "") {
         $dica_log = $d['dica'];
         $capa_log = $d['capa'];
         $perfil_log = $d['perfil'];
-    }
+    } 
     
 } else {
     header('location: index.php');    
