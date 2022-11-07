@@ -22,7 +22,7 @@ if($l != "" && $s != "") {
     } 
     
 } else {
-    header('location: index.php');    
+    header('location:index.php');
 }
 
 ?>
