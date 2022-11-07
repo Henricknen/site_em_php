@@ -5,6 +5,8 @@ $pagina = isset($_GET['page']) ? $_GET['page'] : "";        /* verificando se 'p
 
 if($pagina == 2) {
     require_once 'mais.php';
+} else if ($pagina == 3) {
+    require_once 'postagem.php';
 } else {
     require_once 'sobre.php';
 }
