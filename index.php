@@ -2,8 +2,8 @@
 
     require_once 'conexao.php';
     SESSION_START();        // recupendo a sessão
-    if(isset($_SESSION["login_user"]) && isset($_SESSION["senha_user"])) {        // verificando se 'login_user' e 'senha_user' esta gravado no banco de dados
-        header('location: user.php');       // se estas variaveis estiver setada o usuario se manterá na tela de 'user.php'
+    if(isset($_SESSION["login_user"]) && isset($_SESSION["senha_user"])) {        // verificando se 'login_user' e 'senha_user' tem algum valor
+        header('location: user.php');       // se estas variaveis tiver o usuario será direçionado para tela de 'user.php'
     } 
     
 
