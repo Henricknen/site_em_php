@@ -2,7 +2,7 @@
 
 require_once 'conexao.php';
 
-SESSION_START();        // recuperando sessão
+// SESSION_START();        // recuperando sessão
 
 //'$l' de login
 $l = isset($_SESSION["login_user"])?$_SESSION["login_user"]:"";     // verificando se 'login_user' esta gravado no banco de dados

@@ -1,5 +1,6 @@
 <?php 
 
+    SESSION_START();
     require_once 'verifica_login.php';
 
 ?>
