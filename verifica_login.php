@@ -13,6 +13,7 @@ $s = isset($_SESSION["senha_user"])?$_SESSION["senha_user"]:"";
 if($l != "" && $s != "") {
     $dados = mysqli_query($link, "select * from tb_site WHERE email = '$l'");       // selecionando todos os campos da tabela 'tb_site' on o 'email' é igual a '$l'
     while($d = mysqli_fetch_array($dados)) {      // 'mysqli_fetch_array' faz uma varredura dentro de um array '$dados'
+        $id_log = $d['id_user'];        // 'id_user' nome da coluna da tabela tb_site
         $nome_log = $d['nome'];
         $email_log = $d['email'];       // o que for encontrado na varredura será guardado dentro do array '$d'
         $senha_log = $d['senha'];
