@@ -19,7 +19,7 @@
 
 <section id="menu_perfil">
     <a href="user.php?page=1">Sobre</a>
-    <a href="user.php?page=2">Postagem</a>
+    <a href="user.php?page=2">Atividades</a>
     <a href="user.php?page=3">Nova postagem</a>
     <a href="logout.php">Sair</a>
 </section>
