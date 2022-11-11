@@ -10,6 +10,7 @@
     <label>
         Atualizar:<br><br>
         <textarea name="atualiza" rows="10" cols="50" required></textarea><br><br>
+        <input type="hidden" name="id" value="<?php echo $id_update; ?>">
         <input type="submit" value="Atualizar">
     </label>
 </form>
