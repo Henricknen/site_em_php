@@ -17,7 +17,7 @@
 <body>      <!-- seção principal -->
 
     <section id="principal">
-        <section id="topo" style="background-image:url(<?php echo "users/$email_log/$capa_log"; ?>); background-size: cover;">     <!-- header -->    <!-- a propriedade 'background-image' permite iserir uma imagem como plano de fundo -->
+        <section id="topo" style="background-image:url(<?php echo "users/$email_log/$capa_log"; ?>); background-size: cover;">     <!-- header, a propriedade 'background-image' permite iserir uma imagem como plano de fundo -->
             <?php require_once 'topo.php'; ?>        <!-- fazendo a inclusão do arquivo 'topo.php' -->
         </section>
 
