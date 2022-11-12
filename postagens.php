@@ -9,6 +9,7 @@
     while($dados = mysqli_fetch_array($postagens)) {        // fazendo uma varedura na variável '$postagens' e armazenando dentro de '$dados'
         echo "<p class='posts'>$dados[id_postagem]: $dados[postagem]
         <a href= 'update.php?id_post=$dados[id_postagem]'>Atualizar postagens...</a>
+        <a href= 'user.php?page=3'>Nova postagem</a>
         </p>";
     }
 ?>

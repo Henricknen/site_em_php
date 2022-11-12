@@ -10,7 +10,7 @@
 
     if($atualizar) {
         $sql = mysqli_query($link, "UPDATE tb_postagens SET postagem  = '$atualizar' WHERE id_postagem = '$id_postagem'");        // criando atualização em 'tb_postagens' do banco de dados 'bd_site'
-        header("location:user.php");
+        header("location:user.php?page=2");     // depois da alteração o usuario será redirecionado para tela de exibição
     } else {
         header("location:user.php");
     }

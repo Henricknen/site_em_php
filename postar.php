@@ -10,9 +10,7 @@ if($postagem) {     // se a variável '$postagem' for verdadeira será feito o c
     $sql = "insert into tb_postagens(postagem, id_user) VALUES
             ('$postagem', '$id_log')";     // variáveis
             mysqli_query($link, $sql);          // '$link'variável da conexão e variável '$sql' da consulta feita acima
-            echo "Dados cadastrados com sucesso...<br>";
-            echo "<a href= 'user.php?page=3'>Nova postagem...</a><br>";       // exibindo a pagina de usuario de variável igual a '3'
-            echo "<a href= 'user.php?page=2'>Exibir postagens...</a><br>";            // exibindo a pagina de usuario de variável igual a '2'
+            header('location:user.php?page=2');     // após nova postagem usuario será redireçionado para tela de exibição
 } else {
     header('location:user.php');        // se a variável não estiver preenchida o usuario será enviado para 'user.php'
 }
