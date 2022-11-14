@@ -11,7 +11,7 @@
         <li><img src="img/catalogoo.png" id="menu">
             <ul id="pizza_menu">
                 <li><a href="atualizar_fotos.php">Atualizar</a></li>
-                <li><a href="remover_fotos.php">Remover foto</a></li>
+                <li><a href="remover_fotos.php">Remover fotos</a></li>
             </ul>
         </li>
     </ul>
