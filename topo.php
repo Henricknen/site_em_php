@@ -1,9 +1,15 @@
 <header>
     <h1><?php echo $nome_log; ?></h1>
 </header>
-<figure>
+<figure id="img_perfil">
     <!-- <img src="users/email/imagem.png">     caminho da imagem -->
-    <img src="<?php echo "users/$email_log/$perfil_log" ?>">
+    <img src="<?php
+        if($perfil_log == "perfil.png") {       // se '$perfil_log' estiver este valor será apresebntada a imagem abaixo
+            echo "img/$perfil_log";
+        } else {                                // caso conttrario exibirá a imagem abaixo
+            echo "users/$email_log/$perfil_log";        // caminho da pasta do usuario
+        }
+      ?>" id="perfil">
 </figure>
 
 <nav>
