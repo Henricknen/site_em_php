@@ -10,8 +10,8 @@
     <ul id="mais">
         <li><img src="img/catalogoo.png" id="menu">
             <ul id="pizza_menu">
-                <li><a href="comprar.php">Upload de foto</a></li>
-                <li><a href="pagamento.php">Remover foto</a></li>
+                <li><a href="atualizar_fotos.php">Atualizar</a></li>
+                <li><a href="remover_fotos.php">Remover foto</a></li>
             </ul>
         </li>
     </ul>
