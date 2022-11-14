@@ -151,6 +151,22 @@ h1, .dados, .posts {
     margin-left: 20px;
 }
 
+/* estiização dos icones das postagens */
+.img_post {
+    height: 25px;
+    width: auto;
+    margin: 2px;
+    border: 0px soolid red;
+    position: relative;
+    top: 10px;
+    transition: 0.1s;
+    opacity: 0.7;
+}
+
+.img_post:hover {
+    opacity: 1;
+}
+
 /* pagina de cadastr */
 #form {
     border: 0px solid blue;
