@@ -4,10 +4,10 @@
 <figure id="img_perfil">
                             <!-- <img src="users/email/imagem.png">     caminho da imagem -->
     <img src="<?php
-        if($perfil_log == "perfil.jpg") {       // se '$perfil_log' estiver este valor será apresebntada a imagem abaixo
+        if($perfil_log == "perfil.jpg") {       // se '$perfil_log' for igua a 'perfil.jpg' será usada a imagem da pasta 'img'
             echo "img/$perfil_log";
-        } else {                                // caso contrario exibirá a imagem abaixo
-            echo "users/$email_log/$perfil_log";        // caminho da pasta do usuario
+        } else {                                // se '$perfil_log' for diferente de 'perfil.jpg' será usada a imagem que usuario cadastrou
+            echo "users/$email_log/$perfil_log";        // 'users' pasta criada de usuario cadastrado
         }
       ?>" id="perfil">
 

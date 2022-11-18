@@ -5,7 +5,7 @@
     require_once 'verifica_login.php';
 
     $foto_perfil = "users/$email_log/$perfil_log";      // caminho da imagem que será removida dentro da variável '$foto_perfil'
-    $foto_capa = "users/$email_log/$capa_log";
+    $foto_capa = "users/$email_log/$capa_log";              // adiçionando o caminho da foto que será removida na variável '$foto_capa'
 
 
     unlink($foto_perfil);       // fazendo remoção das fotos
