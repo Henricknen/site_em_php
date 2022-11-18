@@ -4,7 +4,7 @@
 <figure id="img_perfil">
                             <!-- <img src="users/email/imagem.png">     caminho da imagem -->
     <img src="<?php
-        if($perfil_log == "perfil.jpg") {       // se '$perfil_log' for igua a 'perfil.jpg' será usada a imagem da pasta 'img'
+        if($perfil_log == "perfil.png") {       // se '$perfil_log' for igua a 'perfil.jpg' será usada uma imagem padrão da pasta 'img'
             echo "img/$perfil_log";
         } else {                                // se '$perfil_log' for diferente de 'perfil.jpg' será usada a imagem que usuario cadastrou
             echo "users/$email_log/$perfil_log";        // 'users' pasta criada de usuario cadastrado
@@ -19,7 +19,7 @@
             <ul id="pizza_menu">
                 <li><a href="atualizar_fotos.php">Atualizar</a></li>
                 <?php
-                    if($perfil_log != "perfil.jpg" && $capa_log != "capa.jpg") {        // verificação
+                    if($perfil_log != "perfil.png" && $capa_log != "capa.png") {        // verificação
                 ?>
                 <li><a href="remover_fotos.php">Remover fotos</a></li>
                 <?php }  ?>

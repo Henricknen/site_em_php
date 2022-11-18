@@ -18,10 +18,10 @@
 
     <section id="principal">
         <section id="topo" style="background-image:url(<?php        {/*  header, a propriedade 'background-image' permite iserir uma imagem como plano de fundo */}
-        if($capa_log != "capa.png") {       // se o que tem dentro da variável for diferente de 'capa.jpg'
+        if($capa_log != "capa.png") {       // se o que tem dentro da variável for diferente de 'capa.png'
             echo "users/$email_log/$capa_log";      // carregara a foto que o usuario cadastrou
         } else {
-            echo "img/capa_log";        // caso contrario fará este caminho que carregada a imagem padrão
+            echo "img/$capa_log";        // caso contrario fará este caminho que carregara a imagem padrão
         }
          
          ?>); background-size: cover;">     
