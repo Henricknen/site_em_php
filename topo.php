@@ -17,7 +17,7 @@
     <ul id="mais">
         <li><img src="img/catalogoo.png" id="menu">
             <ul id="pizza_menu">
-                <li><a href="atualizar_fotos.php">Atualizar</a></li>
+                <li><a href="atualiza.php">Atualizar</a></li>
                 <?php
                     if($perfil_log != "perfil.png" && $capa_log != "capa.png") {        // verificação
                 ?>
