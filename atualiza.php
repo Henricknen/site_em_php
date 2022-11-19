@@ -1,3 +1,11 @@
+<?php
+
+    require_once 'conexao.php';     // inclusão do arqquivo de conexão
+    SESSION_START();        // iniçiando sessão
+    require_once 'verifica_login.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>      <!-- cabeçalho -->
