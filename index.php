@@ -31,6 +31,7 @@
                 </label>
             </form>
             <a href="cadastro.php">Cadastrar Usuario</a>
+            <a href="redefinir_senha.php">Esqueci a Senha</a>
     </section>
     
 </body>

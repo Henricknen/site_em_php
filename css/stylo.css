@@ -180,8 +180,7 @@ h1, .dados, .posts {
 
 #form a {
     float: left;
-    position: absolute;
-    right: 5%;
+    margin: 20px 0 0 20px;
     bottom: 10px;
     border: 0px solid red;
     text-decoration: none;
