@@ -11,6 +11,9 @@
 
     <section id="form">
             <form action="redefinir.php" method="post">
+                <label>E-mail:</label>
+                    <input type="text" name="email" placeholder="Digite seu e-mail" class="entradas" required><br>
+                <label>
                 <label>Dica:</label>
                     <input type="text" name="dica" placeholder="Qual dica foi cadastrada" class="entradas" required><br>
                 <label>
