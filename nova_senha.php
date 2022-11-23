@@ -1,7 +1,14 @@
 <?php
 
     $senha = isset($_GET['s'])?$_GET['s'] : "";     // se 's' estiver definido a variável 's' passada pela URL e guardando a em '$senha'
-    echo $senha;
+    // echo $senha;
+    $email =isset($_GET['email_user'])?$_GET['email_user'] : "";        // verificando se variável 'email_user' está setada e atribuindo o valor dela na variável 'email'
+    // echo $email;
+    if($email != "") {
+        echo "Passou pela tela do link<br>";
+    } else {
+        header('location: index.php');
+    }
 
 ?>
 

@@ -24,9 +24,9 @@
                    // verificando se '$mail' e '$dica' são iguais aos dados cadastrados
             if($e == $email && $dica == $d) {
                 echo "Senha: $s<br>";
-                echo "<a href='nova_senha.php'>Criar nova senha</a>";
+                echo "<a href='nova_senha.php?email_user=$e'>Criar nova senha</a>";       // '?' passa a varável 'email_user' junto com endereço 'nova_senha.php'
             } else {
-                echo "<br><a href='redefinir_senha.php'>Existe algo errado volte a tela de refinição</a>";
+                header('location: redefinir_senha.php');
             }
 
         } else {
@@ -35,7 +35,5 @@
     } else {
         header('location: redefinir_senha.php');
     }
-
-
 
 ?>
