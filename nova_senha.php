@@ -1,3 +1,10 @@
+<?php
+
+    $senha = isset($_GET['s'])?$_GET['s'] : "";     // se 's' estiver definido a variável 's' passada pela URL e guardando a em '$senha'
+    echo $senha;
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>      <!-- cabeçalho -->
@@ -14,10 +21,10 @@
                 <label>Nova Senha:</label>
                     <input type="password" name="senha" placeholder="Digite a nova senha" class="entradas" required><br>
                 <label>
-                <!-- <label>Confirmar senha:</label>
-                    <input type="password" name="confirmar" placeholder="Repeitir senha" class="entradas" required><br> -->
+                <label>Confirmar senha:</label>
+                    <input type="password" name="confirmar" placeholder="Repeitir senha" class="entradas" required><br>
                 <label>
-                    <input type="submit" value="Nova Senha" class="bt_form">
+                    <input type="submit" value="Cadastrar Senha" class="bt_form">
                 </label>
             </form>
     </section>
