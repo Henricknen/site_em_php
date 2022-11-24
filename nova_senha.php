@@ -4,9 +4,7 @@
     // echo $senha;
     $email =isset($_GET['email_user'])?$_GET['email_user'] : "";        // verificando se variável 'email_user' está setada e atribuindo o valor dela na variável 'email'
     // echo $email;
-    if($email != "") {
-        echo "Passou pela tela do link<br>";
-    } else {
+    if($email == "") {      // se 'email_user' for vazio não terá acesso a 'nova_senha.php'
         header('location: index.php');
     }
 
@@ -26,10 +24,14 @@
     <section id="form">
             <form action="cadastrar_nova_senha.php" method="post">
                 <label>Nova Senha:</label>
-                    <input type="password" name="senha" placeholder="Digite a nova senha" class="entradas" required><br>
+                    <input type="password" name="senha" placeholder="Digite a nova senha" class="entradas" required
+                     value="<?php if($senha != "") { echo $senha;}?>"><br>
                 <label>
                 <label>Confirmar senha:</label>
-                    <input type="password" name="confirmar" placeholder="Repeitir senha" class="entradas" required><br>
+                    <input type="password" name="confirmar" placeholder="Repetir senha" class="entradas" required><br>
+                    <input type="hidden" name="email" value="<?php echo $email;?>">     <!-- campo estará invisivel -->
+                    
+
                 <label>
                     <input type="submit" value="Cadastrar Senha" class="bt_form">
                 </label>
