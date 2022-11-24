@@ -1,7 +1,7 @@
 <?php
 
     require_once 'conexao.php';     // para ter acesso ao banco de dados
-    header('content-text/html; charset=utf-8');
+    header('content-type: text/html; charset=utf-8');
     SESSION_START();
     require_once 'verifica_login.php';
 

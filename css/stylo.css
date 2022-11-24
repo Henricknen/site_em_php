@@ -135,7 +135,7 @@ body {
 /* seção conteudo */
 #principal {
     max-width: 1200px;
-    min-height: 700px;
+    min-height: 800px;
     margin: 0 auto;
     background-color:#0AF;
 }

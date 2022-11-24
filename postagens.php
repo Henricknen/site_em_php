@@ -1,6 +1,6 @@
 <?php
 
-    header('content-text/html; charset=utf-8');
+    header('content-type: text/html; charset=utf-8');
     require_once 'conexao.php';
     // include "conexao.php";
     $sql = "select * from tb_postagens where id_user = '$id_log'";      // selecionando todos os campos da tabela 'tb_postagens' onde o 'id_user' é igual ao a 'id_log'

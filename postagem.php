@@ -1,7 +1,7 @@
 <?php
 
     require_once 'verifica_login.php';      // para acessar esta página o usuario tem que estar logado
-    header('content-text/html; charset=utf-8');
+    header('content-type: text/html; charset=utf-8');
 
 ?>
 <form action="postar.php" method="post">
